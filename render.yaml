@@ -1,0 +1,14 @@
+# Render Blueprint for a public DEMO of Masar Study.
+# Intake deliberately remains OFF until a business mailbox, reviewed legal
+# notices, and the site owner's authority to operate are ready.
+services:
+  - type: web
+    name: masar-study-preview
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn server:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /health
+    envVars:
+      - key: PRIVACY_POLICY_APPROVED
+        value: "false"
