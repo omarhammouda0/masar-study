@@ -4,3 +4,60 @@
 @media(max-width:870px){.container{width:min(100% - 38px,720px)}.section{padding:76px 0}.topline{font-size:10px}.nav-wrap{min-height:70px}.nav-links{display:none;position:absolute;top:70px;right:0;left:0;padding:16px 24px 25px;background:white;border-bottom:1px solid #e0e7ea;box-shadow:0 18px 35px #12354a1a;flex-direction:column;align-items:flex-start;gap:15px}.nav-links.open{display:flex}.menu-toggle{display:block}.nav-actions{margin-right:auto}.btn-nav{padding:10px 13px;font-size:11px}.brand-mark{width:41px;height:41px}.brand-type strong{font-size:24px}.brand-type small{font-size:8px}.hero{padding-top:58px}.hero-grid{grid-template-columns:1fr;gap:38px}.hero-copy{max-width:650px}.hero h1{font-size:clamp(37px,7vw,58px)}.hero-visual{height:450px;padding-top:10px;max-width:680px;width:100%;margin-inline:auto}.hero-image{height:420px}.hero-bottom{gap:20px;justify-content:space-between;margin-top:15px}.dest-card{min-height:345px}.services-grid{grid-template-columns:repeat(2,1fr)}.journey-layout{grid-template-columns:1fr;gap:35px}.journey-heading h2{max-width:none}.journey-heading p{max-width:580px}.form-grid{grid-template-columns:1fr}.form-intro{padding-top:0}.form-intro h2{font-size:35px}.privacy-tip{margin-top:20px}.faq-grid{grid-template-columns:1fr;gap:20px}.closing-panel{padding:32px;flex-direction:column;align-items:flex-start}.footer-main{grid-template-columns:1.8fr 1fr 1fr}.footer-contact{grid-column:1/-1}.footer-bottom{flex-wrap:wrap}}
 @media(max-width:580px){.container{width:calc(100% - 34px)}.section{padding:60px 0}.topline{padding:4px}.topline-sep{margin:0 4px}.btn-nav{display:none}.hero{padding:44px 0 0}.hero h1{font-size:38px;line-height:1.55;letter-spacing:-1.2px}.hero-description{font-size:13px}.hero-cta{gap:19px}.hero-cta .btn{width:100%;font-size:13px}.trust-inline{font-size:10px;margin-top:23px}.hero-visual{height:345px;margin-top:3px}.hero-image{height:315px;border-radius:95px 13px 14px 14px}.float-uni{top:9px;left:-3px;padding:10px 12px}.float-uni strong{font-size:11px}.float-uni small,.float-path small{font-size:9px}.float-path{bottom:42px;right:-3px;padding:10px}.float-path strong{font-size:10px}.float-icon,.float-path-circle{width:30px;height:30px}.hero-image-caption{font-size:10px}.hero-bottom{padding:16px 0;justify-content:center;flex-wrap:wrap;gap:9px 15px}.hero-bottom-item{font-size:9.5px;gap:5px}.small-icon{font-size:10px}.section-heading h2,.journey-heading h2{font-size:30px}.section-heading p{font-size:12px}.dest-grid{grid-template-columns:1fr;gap:15px}.dest-card{min-height:300px;padding:21px 23px}.dest-body h3{font-size:23px}.split-heading{display:block}.split-heading>p{margin-top:13px}.services-grid{grid-template-columns:1fr;gap:12px}.service-card{min-height:auto;padding:23px}.service-icon{margin-bottom:12px}.journey-heading h2{font-size:33px}.journey-step{padding-left:3px;gap:14px}.journey-step h3{font-size:15px}.journey-step p{font-size:11.5px}.form-intro h2{font-size:32px}.form-card{padding:23px 17px;border-radius:16px}.form-head h3{font-size:17px}.fields.two{grid-template-columns:1fr}.fields{gap:12px;margin-top:12px}.form-next{margin-right:auto}.form-footer .btn{padding:12px 17px}.review-row{font-size:10px}.review-row strong{font-size:10px}.faq-list summary{font-size:12px}.closing-section{padding:0 0 50px}.closing-panel{padding:30px 22px}.closing-panel h2{font-size:24px}.closing-actions{width:100%}.closing-actions .btn{width:100%}.footer-main{grid-template-columns:1fr 1fr;gap:29px 15px}.footer-brand{grid-column:1/-1}.footer-contact{grid-column:1/-1}.footer-bottom{font-size:10px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition-duration:.01ms!important;animation-duration:.01ms!important}}
+
+/* Country guides - independent detail pages */
+.country-banner{background:radial-gradient(circle at 10% 5%,#255776 0,#102b44 43%,#0b2134 100%);position:relative;overflow:hidden;color:#fff;padding:90px 0 78px}
+.country-banner:after{content:'';width:420px;height:420px;border:1px solid #ffffff22;border-radius:50%;position:absolute;inset:auto auto -250px -90px;pointer-events:none}
+.country-banner .container{position:relative;z-index:1}
+.country-breadcrumb{font-size:13px;color:#b9d1e0;display:flex;gap:9px;align-items:center;margin-bottom:22px}
+.country-breadcrumb a{color:#d2e3ee;text-decoration:none}
+.country-eyebrow{color:#b6e7d9;font-weight:800;font-size:13px;letter-spacing:.05em;margin-bottom:16px}
+.country-banner h1{font-size:clamp(35px,5vw,67px);line-height:1.32;max-width:830px;margin:0 0 19px;font-weight:800}
+.country-banner h1 em{font-style:normal;color:#aee5d4}
+.country-banner .country-lead{font-size:17px;max-width:720px;line-height:2;color:#d8e5ec;margin:0 0 30px}
+.country-actions{display:flex;gap:14px;align-items:center;flex-wrap:wrap}
+.country-actions .plain-link{color:#fff;text-decoration:underline;text-underline-offset:6px;font-size:14px}
+.country-pills{display:flex;gap:10px;flex-wrap:wrap;margin-top:32px}
+.country-pills span{font-size:12px;border:1px solid #ffffff44;color:#e8f2f4;border-radius:999px;padding:8px 15px}
+.country-guide{background:#f5f8fa;padding:64px 0 70px}
+.country-guide .section-heading{margin-bottom:28px}
+.country-guide .section-heading h2{font-size:clamp(28px,3.4vw,40px)}
+.country-guide .section-heading p{max-width:720px}
+.facts-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:17px;margin-bottom:43px}
+.fact-card{background:#fff;border:1px solid #e2eaf0;border-radius:17px;padding:25px;box-shadow:0 10px 30px #17354a09;min-width:0}
+.fact-card .fact-label{font-size:12px;color:#718397;display:block;margin-bottom:12px;font-weight:700}
+.fact-card strong{color:#163d59;font-size:clamp(19px,2.6vw,29px);line-height:1.35;display:block;font-family:Manrope,Cairo,sans-serif}
+.fact-card .fact-note{font-size:13px;line-height:1.9;color:#627789;display:block;margin-top:12px}
+.guide-grid{display:grid;grid-template-columns:1.4fr .85fr;gap:22px;align-items:start}
+.guide-column{display:grid;gap:20px}
+.guide-card{padding:29px;background:#fff;border:1px solid #e2eaf0;border-radius:18px;box-shadow:0 12px 35px #213b4807}
+.guide-card h3{font-size:21px;margin:0 0 16px;color:#153b58}
+.guide-card h4{font-size:15px;margin:20px 0 8px;color:#173f58}
+.guide-card p,.guide-card li{font-size:14px;color:#556f81;line-height:2}
+.guide-card p{margin:0 0 11px}
+.guide-card ul,.guide-card ol{margin:5px 0 10px;padding-right:21px}
+.guide-card li{padding-right:4px;margin-bottom:7px}
+.guide-card li::marker{color:#0b8b80}
+.guide-card a{color:var(--teal)}
+.guide-card b,.guide-card strong{color:#254457}
+.country-aside{display:grid;gap:18px}
+.country-aside .guide-card{background:#eaf5f2;border-color:#cde7de}
+.country-aside .guide-card h3{color:#145446}
+.country-aside .guide-card p{color:#3b675b}
+.aside-cta{display:block;text-align:center;padding:14px 18px;background:#0e8779;color:#fff!important;border-radius:10px;text-decoration:none;font-weight:700;margin-top:15px}
+.guide-card .notice-detail{font-size:12px;line-height:1.9;background:#f1f6fa;border-right:3px solid #0e8779;border-radius:6px;padding:12px 15px;color:#4d6a7d;margin-top:20px}
+.guide-checks{list-style:none;padding:0!important;margin:5px 0!important}
+.guide-checks li{display:flex;gap:10px;align-items:start}
+.guide-checks li:before{content:'✓';font-weight:900;color:#0b8b80}
+.country-guide .form-bridge{margin-top:40px;border-radius:14px;background:#dbeee8;padding:25px 28px;display:flex;justify-content:space-between;align-items:center;gap:15px}
+.country-guide .form-bridge p{margin:5px 0 0;color:#4c6e69;font-size:14px}
+.country-guide .form-bridge strong{font-size:19px;color:#174d48}
+.country-guide .form-bridge a{flex-shrink:0}
+.country-guide .updated-note{font-size:12px;color:#718294;margin-top:16px;line-height:1.8}
+body[data-country] .form-intro:after{content:'النموذج يعمل كمعاينة فقط. إرسال المستندات والطلبات غير مفعل حتى تجهيز بريد استقبال آمن وإشعار الخصوصية.';display:block;background:#fff3de;border:1px solid #eed4a5;color:#795729;border-radius:10px;padding:14px;line-height:1.9;font-size:12px;margin-top:16px}
+@media(max-width:860px){.guide-grid{grid-template-columns:1fr}.country-aside{grid-template-columns:repeat(2,minmax(0,1fr))}.facts-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:620px){.country-banner{padding:55px 0 49px}.country-banner .country-lead{font-size:15px}.facts-grid,.country-aside{grid-template-columns:1fr}.guide-card{padding:21px}.country-guide{padding:44px 0}.country-guide .form-bridge{flex-direction:column;align-items:stretch}.country-guide .form-bridge a{text-align:center}}
+
+/* Entire destination card opens its internal guide via the native link. */
+.dest-card[data-detail-page] .dest-body > a::after{content:"";position:absolute;inset:0;z-index:5;cursor:pointer}
+.dest-card[data-detail-page]:focus-within{outline:3px solid #0f8779;outline-offset:4px}

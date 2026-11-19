@@ -15,6 +15,11 @@
   const menu = $('.menu-toggle');
   const nav = $('#primary-nav');
   const toast = $('#toast');
+  // Country-specific pages reuse the same 4-step assessment flow.
+  // Preselect the page's destination without restricting other options.
+  const selectedCountry = document.body.dataset.country;
+  const destinationField = form?.querySelector('select[name="destination"]');
+  if (selectedCountry && destinationField) destinationField.value = selectedCountry;
   let currentStep = 1;
   let ready = false;
   let whatsappNumber = '';
